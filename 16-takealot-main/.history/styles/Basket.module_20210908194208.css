@@ -1,9 +1,0 @@
-@media (min-width: 768px) {
-  .welcom__container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .welcom__container {
-    margin: 0 2em;
-  }
-}
