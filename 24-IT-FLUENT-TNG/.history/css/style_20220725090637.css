@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_1 {
+    background-image: url("./../assets/images/ITFluence_infographics_intro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.section_1 p {
+    text-align: center;
+    padding-top: 2em;
+}

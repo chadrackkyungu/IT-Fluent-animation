@@ -1,0 +1,37 @@
+===========================================================================================
+SOMETIMES I WANNA RUN AN EXISTING PROJECT 
+IN MOST FO THE CASE IT WILL THROW ERRORS WHY? BECAUSE BY THE TIME THAT PROJECT WAS CREATED 
+THEY CREATED IT USING A DIFFERENT NODE JS VERSION. SO TO FIX THAT USE THE STEPS BELLOW
+===========================================================================================
+
+SOLUTION 1 :
+===========
+npm install --save --legacy-peer-deps
+
+
+SOLUTION 2 :
+===========
+*npm rm -rf node_modules   => this will remove the node_modules
+*npm rm package-lock.json   => this will remove the package-lock.json
+
+*Clear the npm cache and perform the clean installation with --force flag as shown below.
+*npm cache clean --force
+
+Installation :
+=============
+*npm install --force
+
+Installing [node-gyp]
+========================
+*npm install -g node-gyp
+
+
+
+SOLUTION 3: 100% WORKING
+===========
+npm audit fix --force
+
+
+HOW TO INSTALL package-lock-only
+========================================
+*npm i --package-lock-only

@@ -1,0 +1,41 @@
+:root {
+    --primary: #1e90ff;
+    --white: #ffffff;
+    --font-size: 1rem;
+    --font-size-2: 1.5rem;
+    --font-size-lg: 5rem;
+    --margin: 1.3em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size);
+    line-height: 2em;
+}
+
+h1 {
+    font-size: var(--font-size-lg);
+    margin: var(--margin);
+}
+
+.section_1 {
+    background-image: url("./../assets/images/ITFluence_infographics_intro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+}
+
+.section_1 p {
+    text-align: center;
+    padding-top: 2em;
+    width: 50%;
+    margin: 0 auto;
+    color: var(--white);
+    font-size: var(--font-size-2);
+}
+
+.section_1 h1 {
+    text-align: center;
+}
