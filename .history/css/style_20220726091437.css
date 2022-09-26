@@ -382,3 +382,14 @@ h4 {
         transform: translate(-10%, -5%);
     }
 }
+
+[parallax-error]::after {
+    content: attr(parallax-error);
+    background: red;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    bottom: 0px;
+    right: 0px;
+    padding: 0.2em 0.4em;
+}

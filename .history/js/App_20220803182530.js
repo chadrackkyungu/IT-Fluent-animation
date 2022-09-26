@@ -88,14 +88,20 @@ gsap.to(".square", {
     x: 500,
     duration: 8, //3
     scrollTrigger: {
-        trigger: ".square", 
-        start: "top 80%", 
+        trigger: ".square", // before [.square] //wen this class is shown [pin] will stop the animation & start scroll
+        start: "top 80%", // start: "top center",
+        // end: "center 20%", //wen the center of the trigger meet 20% end the animation
+        // end: () => `+=${document.querySelector(".square").offsetHeight}`,
         end: "top 30%",
         markers: true,
-        scrub: true, 
-        pin: ".square", 
-        pinSpacing: true, 
+        // toggleClass: "red",
+
+        scrub: true, // true / 4 second
+        pin: ".square", //
+        pinSpacing: true, //false
+
         //                onEnter         onLeave      onEnterBack       onLeaveBack
+        //* toggleActions: "  restart           pause         resume          complete",
         toggleActions: "       restart           none          none             none",
     },
 });

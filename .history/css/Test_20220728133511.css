@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.div1,
+.div2 {
+    height: 100vh;
+}
+
+.div1 {
+    background-color: bisque;
+}
+
+.div2 {
+    background: black;
+}
+
+.square {
+    width: 150px;
+    height: 100px;
+    background: fuchsia;
+}
+
+.square2 {
+    /* margin-top: 300px; */
+    width: 150px;
+    height: 100px;
+    background: #f0f0f0;
+}
+
+.red {
+    background-color: red;
+}
+
+.box {
+    background: blue;
+    width: 50px;
+    height: 50px;
+}
+
+.panel {
+    height: 100vh;
+    background: rgb(255, 211, 195);
+}
+
+.change-bg-clr {
+    background: red;
+}
+
+nav {
+    background: green;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    color: white;
+}

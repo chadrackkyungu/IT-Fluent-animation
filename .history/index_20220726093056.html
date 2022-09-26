@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Fluence</title>
+    <link rel="next" href="https://github.com/webdevelopers-eu/dna-parallax/" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://webdevelopers-eu.github.io/DNA-Parallax/jquery.parallax.js"></script>
+    <style>
+        section {
+            height: 200vh;
+            /* 2x the screen to make scrolling longer */
+        }
+        /* Position fixed: ensures smooth animation across browsers */
+        
+        [parallax~="anim-stage"] {
+            position: fixed;
+            /* height: 100vh; */
+            width: 100vw;
+            /* background-color: #EFEFEF; */
+        }
+        /* We can hide whole content when it is off-screen = animation status is "off" */
+        
+        [parallax~="anim-stage"][parallax-status="off"] {
+            display: none;
+        }
+        /* Slide stage up nicely, and slide out after while */
+        
+        @keyframes anim-stage {
+            0% {
+                top: 100vh;
+            }
+            33.3333% {
+                top: 0vh;
+            }
+            66.6666% {
+                top: 0vh;
+            }
+            100% {
+                top: -100vh;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- <section role="parallax-container">
+        <div parallax="anim-stage">
+            Content will scroll during 0%-33% progress, then stop, and continue up during 66%-100%...
+        </div>
+    </section>
+
+    <div class="box" parallax="fly-in-left"></div>
+    <div class="box" parallax="fly-in-right"></div> -->
+
+    <!--*** SECTION 1 -->
+    <div class="section_1" role="parallax-container">
+
+        <p parallax="anim-stage"> The mission to achieve effciency can be a breeze with the right help. Watch as Paul travels from DisorganiseNation to the Wonderful land of Orderus!
+        </p>
+
+        <h1> DIGITAL <span class="color"> EXPEDITION </span> </h1>
+
+
+        <div class="speech_1">
+            <img src="./assets/images/speech-img/ITFLUENCE_intro_speech.png" alt="">
+        </div>
+
+    </div>
+
+    <!--*** SECTION 2 -->
+    <div class="section_2">
+
+        <h2> LEVEL 1: <span class="color"> CHAOTIC PROBLEMS </span> </h2>
+
+        <div class="content">
+            <div class="left__content">
+
+                <h4> BROKEN SYSTEM </h4>
+                <h4> DEADLINES </h4>
+                <h4> TASK TRACKING </h4>
+                <h4> LACK OF AUTOMATION - INEFFICIENCY </h4>
+
+            </div>
+
+            <div class="right__content">
+                <h4> MISSING TIMESHEETS </h4>
+                <h4> REPORTING (MONTHLY DEADLINES) </h4>
+                <h4> INCIDENT /CHANGE REQUESTS </h4>
+                <h4> NO APPROVAL RECORDS </h4>
+            </div>
+
+
+        </div>
+
+
+        <div class="speech_2">
+            <img src="./assets/images/speech-img/ITFLUENCE_level_1.png" alt="">
+        </div>
+
+    </div>
+
+    <!--*** SECTION 3 -->
+    <div class="section_3">
+
+        <h2> LEVEL 2: <span class="color"> SERVICE DESK </span> </h2>
+
+        <div class="content">
+            <div class="left__content">
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_jira_software.png" alt="">
+                </div>
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_jira_work_management.png" alt="">
+                </div>
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_confluence.png" alt="">
+                </div>
+            </div>
+
+            <div class="right__content">
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_jira_service_management.png" alt="">
+                </div>
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_jira_align.png" alt="">
+                </div>
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_status_page.png" alt="">
+                </div>
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 2 logos/ITFLUENCE_level_2_opsgenie.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="speech_3">
+            <img src="./assets/images/speech-img/ITFLUENCE_level_2.png" alt="">
+        </div>
+
+    </div>
+
+    <!--*** SECTION 4 -->
+
+    <div class="section_4">
+        <h2> LEVEL 3: <span class="color"> PROJECT MANAGEMENT OFFICE </span> </h2>
+
+        <div class="content_2">
+            <div class="left__content_2">
+                <div class="icon-img-container animate">
+                    <img src="/assets/images/level 3 icons/ITFLUENCE_level_3_task_tracking_icon.png" alt="">
+                    <h3>Task Tracking</h3>
+                </div>
+                <div class="icon-img-container animate">
+                    <img src="/assets/images/level 3 icons/ITFLUENCE_level_3_dashboard_icon.png" alt="">
+                    <h3>Kanban's, Scrums</h3>
+                </div>
+            </div>
+
+            <div class="right__content_2">
+                <div class="icon-img-container animate">
+                    <img class="rotate" src="/assets/images/level 3 icons/ITFLUENCE_level_3_project_request_icon.png" alt="">
+                    <h3>Cater for different Project request</h3>
+                </div>
+                <div class="icon-img-container animate">
+                    <img src="/assets/images/level 3 icons/ITFLUENCE_level_3_gant_charts-10.png" alt="">
+                    <h3>Work Break Down Structure (Plug in) Gant Chart</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="speech_4">
+            <img src="./assets/images/speech-img/ITFLUENCE_level_3.png" alt="">
+        </div>
+    </div>
+
+
+    <!--*** SECTION 5 -->
+    <div class="section_5">
+        <h2> LEVEL 4 : <span class="color"> CONFLUENCE </span> </h2>
+
+        <div class="content_2">
+            <div class="left__content_2">
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 3 icons/ITFLUENCE_level_4_archive icon.png" alt="">
+                    <h3>Task Tracking</h3>
+                </div>
+            </div>
+
+            <div class="right__content_2">
+                <div class="icon-img-container">
+                    <img src="/assets/images/level 3 icons/ITFLUENCE_level_4_storage icon.png" alt="">
+                    <h3>Cater for different Project request</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="speech_5">
+            <img src="./assets/images/speech-img/ITFLUENCE_level_4.png" alt="">
+        </div>
+    </div>
+
+
+    <!--*** SECTION 6 -->
+    <div class="section_6">
+        <h2> <span class="color"> EXPEDITION CONQUERED </span> </h2>
+
+    </div>
+
+
+    <!--*** SECTION 7 -->
+    <div class="section_7">
+        <h2> LEVEL 5: <span class="color"> MIGRATION </span> </h2>
+
+
+        <h3>
+            SAVE TIME. SAVE MONEY . UNFOLD THE FUTURE WITH ITFLUENCE
+        </h3>
+
+        <button> Schedule a call </button>
+    </div>
+
+
+</body>
+
+</html>

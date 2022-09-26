@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.div1,
+.div2 {
+    height: 100vh;
+}
+
+.div1 {
+    background-color: bisque;
+}
+
+.div2 {
+    background: black;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background: fuchsia;
+}
+
+.square2 {
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    background: #f0f0f0;
+}
+
+.red {
+    background-color: red;
+}

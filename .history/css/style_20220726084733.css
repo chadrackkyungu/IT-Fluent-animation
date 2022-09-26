@@ -11,9 +11,6 @@
 
 html {
     scroll-behavior: smooth;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    box-sizing: border-box;
 }
 
 body {
@@ -369,16 +366,14 @@ h4 {
     animation: floating 4s ease-in-out infinite;
 }
 
-.rotate {}
-
 @keyframes floating {
     0% {
-        transform: translate(-10%, -5%);
+        transform: translate(-5%, -5%);
     }
     50% {
-        transform: translate(-10%, -0%);
+        transform: translate(-5%, -5%);
     }
     100% {
-        transform: translate(-10%, -5%);
+        transform: translate(-5%, -5%);
     }
 }
